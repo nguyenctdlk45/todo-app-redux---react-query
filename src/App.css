@@ -1,0 +1,17 @@
+@import "~antd/dist/antd.css";
+
+.ant-select-multiple .ant-select-selection-item {
+  height: 27px;
+}
+.delete-icon {
+  margin-left: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 5px;
+  opacity: 1;
+}
+
+.delete-icon:hover {
+  color: red; /* Thay đổi màu sắc khi hover, ví dụ màu đỏ */
+  background-color: lightgray; /* Thay đổi màu nền khi hover, nếu cần */
+}
